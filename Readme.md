@@ -31,23 +31,26 @@ A simple and efficient Task Management application built using the MERN (MongoDB
    git clone https://github.com/your-username/task-management-app.git
    cd task-management-app
 2. Install dependencies for both frontend and backend:
-
-cd client
-npm install
-cd ../server
-npm install
+   ```sh
+   cd client
+   npm install
+   cd ../server
+   npm install
 3. Set up environment variables in .env (server folder):
-MONGO_URI=your_mongodb_connection_string
-PORT=5173
+   ```sh
+   MONGO_URI=your_mongodb_connection_string
+   PORT=5173
 4. Start the backend server:
-cd server
-npm start
+   ```sh
+   cd server
+   npm start
 5. Start the frontend server:
-cd client
-npm start
+   ```sh
+   cd client
+   npm start
 6. Open the app in your browser:
-
-http://localhost:5173/
+   ```sh
+   http://localhost:5173/
 
 
 7. Future Enhancements
