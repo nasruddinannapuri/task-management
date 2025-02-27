@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+::before, ::after {
+    border: none !important;
+  }
+  .max-w-screen-sm {
+    max-width: 100% !important;
+}
+.task-container {
+    display: flex;
+    gap: 1rem; /* Similar to Tailwind's gap-4 */
+    align-items: flex-start;
+  }
+  
+  .task-summary {
+    width: 25%; /* Similar to Tailwind's w-1/4 */
+    background: white;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+  }
+  
+  .task-management {
+    width: 75%; /* Similar to Tailwind's w-3/4 */
+    background: white;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+  }
+  
